@@ -1,0 +1,4 @@
+BACKEND_DOCKER_FILE=/home/dhkehd2/src/side-projects/kafkajs-chat/dockerfiles/Dockerfile.backend
+BACKEND_VOLUME=/home/dhkehd2/src/side-projects/kafkajs-chat/backend
+FRONTEND_DOCKER_FILE=/home/dhkehd2/src/side-projects/kafkajs-chat/dockerfiles/Dockerfile.frontend
+FRONTEND_VOLUME=//home/dhkehd2/src/side-projects/kafkajs-chat/frontend
