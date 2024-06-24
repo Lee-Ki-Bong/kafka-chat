@@ -1,0 +1,17 @@
+{
+  // 기본 포맷터로 Prettier를 지정
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 파일 저장 시 자동으로 포맷팅 활성화
+  "editor.formatOnSave": true,
+
+  // 줄 바꿈을 위한 최대 글자 수
+  "prettier.printWidth": 80,
+
+  // 탭 너비 설정
+  "prettier.tabWidth": 2,
+
+  // 명령문 끝에 세미콜론 사용
+  "prettier.semi": true,
+  "cSpell.words": ["nestjs", "websockets"]
+}
