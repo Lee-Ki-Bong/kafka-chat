@@ -1,4 +1,4 @@
-version: '1'
+version: '3.7'
 
 services:
   zoo1:
@@ -84,3 +84,4 @@ services:
 
 networks:
   kafka-net:
+    driver: bridge

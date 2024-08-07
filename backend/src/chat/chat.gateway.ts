@@ -32,7 +32,8 @@ export class ChatGateway {
             partition: partition.toString(),
           }
           console.log(kafkaMessage);
-          this.server.emit('message', kafkaMessage.value);
+          const parsedMessage = JSON.parse(kafkaMessage.value);
+          this.server.emit('message', parsedMessage);
         },
       },
     );
@@ -51,6 +52,5 @@ export class ChatGateway {
       topic: 'chat-messages',
       messages: [{ value: JSON.stringify(payload) }],
     });
-    this.server.emit('message', payload);
   }
 }
